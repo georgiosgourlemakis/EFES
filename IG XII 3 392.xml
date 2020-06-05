@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">Unclear </title>
+                <editor>Inscriptiones Graecae (IG) </editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"> IG XII 3 392</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support> N/A </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>N/A</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>N/A 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace xml:lang="en"> Findspot </origPlace>
+                            <origDate xml:lang="en">Undated</origDate>
+                        </origin>
+                        <provenance type="found" xml:lang="en"> Found at an unknown date at <origPlace ref="origPlace.xml#Thera" xml:lang="en"> <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/599973" xml:lang="en">Thera</placeName> island, Greece</origPlace>
+                        </provenance>
+                        <provenance type="observed">N/A
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines </p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="el">Modern Greek</language>
+            </langUsage>
+            <textClass><keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Thera">Thera island</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="GR">Greece</geogName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation xml:lang="en">Transcription from previous editor.</creation></profileDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="None available"/>
+            </surface>   
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                    column A<lb n="1"/> <name nymRef="Μηνόφιλος">Μ <supplied reason="lost"> η </supplied>νόφιλος</name>
+                    <lb n="2"/> <name nymRef="Θεμιστόδαμος">Θεμιστοδάμου </name>
+                    <lb n="3"/> <w lemma="ὑπογυμνασιάρχης"> ὑπογυμνασιαρχῶν</w> 
+                     <lb n="4"/>  <name nymRef="Ἑρμῆς">Ἑρμᾶι </name>. 
+                    <lb n="5"/> <gap reason="lost" extent="unknown" unit="character"/> άρ <supplied reason="lost"> η</supplied> ς <surplus> <supplied reason="lost"> <surplus> ὁ δεῖνα</surplus> Π </supplied> άρ<supplied reason="lost"> ιο </supplied> ς <supplied reason="lost" cert="low"></supplied></surplus> ἐποί <supplied reason="lost">ησε <surplus> ἐποίει <supplied reason="lost" cert="low"></supplied></surplus></supplied>.
+                   column B <lb n="1"/> <name nymRef="Νικάνωρ">Νικάνωρ </name>. 
+                    <lb n="2"/> <name nymRef="Μόνιμος">Μόν <supplied reason="lost" cert="low"> ιμος </supplied></name>
+                    <lb n="3"/> <name nymRef="Δαμοκρίνης">Δαμοκρίνου <supplied reason="lost"> ς</supplied> </name>. 
+                    column C <lb n="1"/> <name nymRef="Ἀπολλώνιος">Ἀπολλώ <supplied reason="lost"> νιος</supplied> </name>
+                    <lb n="2"/> Ν <gap reason="illegible" extent="unknown" unit="character"/>...... ς 
+                    <lb n="3"/> <name nymRef="Σύμβουλος">Σύμ <supplied reason="lost"> β</supplied> ου
+                    <lb n="4" break="no"/> λος <supplied reason="lost" cert="low"></supplied> </name>. 
+               </ab>
+            </div>
+            <div type="apparatus">
+                <p>N/A </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p> column A 
+                Minofilus, son of Themistodamus, the under- gymnasiarchs of Hermes, 
+                .....ares (Pares) made up
+                column B 
+                Nikanor, Monimus? , son of Damokriness
+                column C
+                Appolonius,  N.....s
+                Symboulos? </p>
+                 </div>
+         <div type="translation" xml:lang="gr">
+               <p>Στήλη Α
+                   Μηνόφιλος, ο γιος του Θεμιστοδάμου,
+                   υπογυμνασιάρχες του θεού Ερμή.
+                   ...άρης (Πάρης?) κατασκεύασε
+                   Στήλη Β
+                   Νικάνωρ, Μόνιμος?, γιος  του Δαμοκρίνη
+                   Στήλη Γ
+                   Απολλώνιος, Ν.....ς 
+                   Σύμβουλος?</p>
+                    </div>
+            <div type="commentary" xml:lang="en">
+                <p>Three fragmentary columns of an inscription , mentioning several names , among them that of Damokrines. 
+                The origin of the inscription is the island of Thera. </p>
+            </div>
+            <div type="bibliography" xml:lang="en">
+                <p>The edition of the inscription was based on its electronic edition in the "PHI Greek inscriptions" website. </p>
+            </div>
+        </body>
+    </text>
+</TEI>
