@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">Unclear</title>
+            <editor>Inscriptiones Graecae (IG) </editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"> IG XII 3 876</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support> N/A </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>N/A</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>N/A 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                     <origPlace xml:lang="en"> Findspot </origPlace>
+                            <origDate xml:lang="en">Undated</origDate>
+                        </origin>
+                        <provenance type="found" xml:lang="en"> Found at an unknown date at <origPlace ref="origPlace.xml#Thera" xml:lang="en"> <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/599973" xml:lang="en">Thera</placeName> island, Greece</origPlace>
+                        </provenance>
+                        <provenance type="observed">N/A
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines </p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="el">Modern Greek</language>
+            </langUsage>
+            <textClass><keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Thera">Thera island</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="GR">Greece</geogName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation xml:lang="en">Transcription from previous editor.</creation></profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                    <lb n="1"/> ὁ <w lemma="δῆμος">δᾶμος</w> <w lemma="ἀφηρωΐζω">
+                        ἀφηρώϊξε</w>  <name nymRef="Νεικάνωρ">Νεικάνορα</name> <name nymRef="Δαμοκρίνης">Δαμοκρίνους </name> <w lemma="ἀρετή">ἀ <supplied reason="lost"> ρετᾶς</supplied></w>
+                    <w lemma="ἕνεκεν">ἕνεκεν</w> <w lemma="καί">καὶ</w>  <w lemma="καλοκαγαθία"> καλοκἀγ <supplied reason="omitted"> α </supplied> θίας </w>  <w lemma="ἡ"> τᾶς </w> <w lemma="εἰς">ἐς</w> <w lemma="αὐτός"> αὐτό <supplied reason="lost"> ν </supplied></w>. 
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>N/A</p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p> Demos dedicated to Nikanor , son of Damokrines distinctions because of 
+                his nobleness. </p>
+                 </div>
+         <div type="translation" xml:lang="gr">
+               <p> Ο λαός αφιέρωσε στον Νεικάνορα, το γιο του Δαμοκρίνη αρετές λόγω της καλοκαγαθίας του σε αυτόν. </p>
+            </div>
+            <div type="commentary" xml:lang="en">
+                <p>Another inscription from the island of Thera; now the demos dedicated to Damokrines some 
+                distinctions due to his virtue and bravity.  </p>
+            </div>
+            <div type="bibliography" xml:lang="en">
+                <p>The edition of the inscription was based on its electronic edition in  the "PHI Greek inscriptions" website. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

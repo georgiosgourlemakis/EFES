@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> <rs type="textType" xml:lang="en">Fragmented honorofic decree</rs></title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support xml:lang="en">Upper part of a moulded stele. <material xml:lang="eng" ref="material-search.xml#marble"> marble  </material></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout xml:lang="en"> The left down  part of the inscription is lost. A spherical  restoration of the text, comes from parallels texts of other inscriptions.  </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <seg xml:lang="en"> The letters are quite clear with no special difficulty on reading the 
+                            inscribred text; there are occasional  serifs on letters alpha, pi, chi, sigma, heta, ni and tau. The hasta of heta just  tends to the above part of the 
+                            letter; alpha with slanting crossbar. Omega tends to be occasionally smaller than other letters, finishing with two horizontal strokes on its both 
+                            sides; the middle hasta of epsilon is shorter than them on the top and bottom. Tau appears to have an extended  horizontal stroke with its vertical stroke to tend to the 
+                            right. </seg> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="origPlace.xml#Aphrodite's temple" xml:lang="en"> Found in 2003 and reused in workshops' wall on the north side of bouleterion, to the south of 
+                                Aphrodite's temple. </origPlace>
+                            <origDate>Ca. 188-167 B.C. </origDate>
+                        </origin>
+                        <provenance type="found" notBefore="2003" notAfter="2003">
+                            <seg xml:lang="en"> Aphrodite's' <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/329428991" key="http://aphrodisias.classics.ox.ac.uk/templeofaphrodite">Temple</placeName> at 
+                           <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/638753"> Aphrodisias </placeName> (sanctuary of Aphrodite)
+                            </seg>
+                        </provenance>
+                        <provenance type="observed"> N/A 
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines </p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="el">Modern Greek</language>
+            </langUsage>
+            <textClass><keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Aphrodisias">Aphrodisias</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="TUR">Turkey</geogName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation xml:lang="en">Transcription from previous editor.</creation></profileDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="core.jpg"/>
+            <desc>Van Bremen, R. and Carbon, J.-M. (2010) Hellenistic Caria, fig. 1, p. 457. Paris: Ausonius Éditions.</desc>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                    <lb n="1"/> <w lemma="ἄρχων">ἀρχόντων</w> <w lemma="γνώμη">γνώμη </w>•  <w lemma="ἐπειδή">ἐπειδὴ </w> <name nymRef="Δαμοκρίνης">Δαμοκρίνης</name>
+                    <lb n="2"/> <placeName type="ethnic"> Ῥόδιος </placeName> <w lemma="ἀποστέλλω">ἀποσταλεὶς</w> <w lemma="ὑπό">ὑπὸ </w> <placeName type="ethnic"> Ῥοδίων </placeName> <w lemma="ἡγεμών">ἡγε
+                     <lb n="3" break="no"/> μὼν </w> <w lemma="ἐπί"> ἐπὶ </w> <w lemma="ὁ"> τῶν </w> <w lemma="κατά">κατὰ</w> <placeName ref="mentionedplace.xml#karia">Καρίαν </placeName> <w lemma="τόπος">τόπων</w> <w lemma="καθαρός">κα
+                    <lb n="4" break="no"/> <supplied reason="lost"> θα</supplied> ρῶς </w> <w lemma="καί">καὶ</w> <w lemma="μισοπόνηρος">μισοπονήρως </w> <w lemma="ἡ"> τὴν </w> <w lemma="ἀναστροφή"> ἀναστρο 
+                    <lb n="5" break="no"/> <supplied reason="lost"> φὴν <w lemma="ποιέω"> ἐποιήσατο </w> <w lemma="ἄξιος"> ἀξίως </w> <w lemma="ὁ"> τοῦ </w></supplied> </w> <w lemma="πέμπω">πέμψαντος </w>
+                    <lb n="6"/> <supplied reason="lost"> <w lemma="αὐτός">αὐτὸν </w> <w lemma="δῆμος"> δήμου </w>,  <w lemma="προνοέω">προνοῶν </w> <w lemma="ὅπως"> ὅπω </w> </supplied> ς   <w lemma="πᾶς">πάντες </w> <w lemma="ὁ">ο
+                    <lb n="7" break="no"/> <supplied reason="lost"> ἱ</supplied> </w> <supplied reason="lost" cert="low"><w lemma="δῆμος"> δῆμοι </w></supplied> <supplied reason="lost"> <w lemma="ἡ">τηι </w> <w lemma="βέλτιστος">βελτίστηι κατ</w> </supplied> <w lemma="κατάστασις">αστάσει </w>  <w lemma="ὑπάρχω"> ὑ
+                    <lb n="8" break="no"/> <supplied reason="lost"> πάρχωσι  <w lemma="καί">καὶ</w>  <w lemma="ἐν">ἐν </w> <w lemma="ὁμόνοια"> ὁμονοία </w> <w lemma="πολιτεύομαι"> πολιτ </w></supplied> </w> εύωνται•
+                    <lb n="9"/> <supplied reason="lost"> <w lemma="παραγίγνομαι"> παραγενόμενος </w> <w lemma="δὲ"> δὲ </w> <w lemma="καί">καὶ</w> <w lemma="εἰς"> εἰς </w>  <w lemma="ἡ">τὴν </w>  π</supplied> <w lemma="πόλις">όλιν </w> <w lemma="ἐγώ"> ἡμῶν </w> 
+                    <lb n="10"/> <supplied reason="lost"> <w lemma="ἡ">τὴν </w> <w lemma="ἀναστροφή">ἀναστροφὴν </w> <w lemma="ποιέω">ἐποιήσατο </w> με</supplied> <w lemma="μετά">τὰ </w> <w lemma="πᾶς">πάσης </w> 
+                    <lb n="11"/> <supplied reason="lost"> <w lemma="ἐπιμέλεια">ἐπιμελείας </w>  <w lemma="ὁ">τοὺς </w>  <w lemma="διαφέρομαι">διαφερομένους </w> </supplied> τῶ <supplied reason="lost"> <w lemma="ὁ">ν </w> <w lemma="πολίτης">πο </w> </supplied>
+                    <lb n="12" break="no"/> <supplied reason="lost"> λιτῶν</supplied> <gap reason="lost" extent="unknown" unit="character"/>. 
+                 </ab>
+            </div>
+            <div type="apparatus">
+                <p>N/A</p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p> Proposal of the magistrates; because Damokrines the Rhodian,was sent over from Rhodians
+                    as a commander  of the Carian places genuinely and with hostile sentiments, he changed the behaviour/layout 
+                    of  demos who was sent to him as it was deserved, thinking that all the demoi? will take the ultimate initiative
+                    from the situation and will take part in the government in corcondance. Being present at our city, he changed over 
+                    the behaviour of them who were  different from the citizens with integral diligence.  </p>
+                </div>
+         <div type="translation" xml:lang="el">
+               <p>Απόφαση των ανώτερων αρχόντων. Επειδή ο Δαμοκρίνης ο Ρόδιος, στάλθηκε από τους Ροδίους , ηγέτης για τους τόπους στην Καρία χωρίς κανένα
+                   ελλάτωμα και χωρίς μίσος και πονηριά, άλλαξε με αξιοκρατία την συμπεριφορά στον λαό που του είχε σταλθεί, νοούμενος ότι όλοι οι πολίτες να υπάρχουν 
+                   και να αναβιώνουν το ύψιστο της κατάστασης και να συμμετέχουν στα κοινά με ομόνοια. Ήταν παρών στην πόλη μας λοιπόν και έκανε την αλλαγή με όλη του την 
+                   φροντίδα για τους πολίτες που ήταν διαφορετικοί. </p>
+                   </div>
+            <div type="commentary" xml:lang="en">
+                <p>It is an honorific decree for Damokrines, a commnander from the island of Rhodes in Karia (c. 188-167 BC). There are other decrees as well that 
+                     foreign communities established in the area of Aphrodisias (probably close to the temple of Aphrodite). As a result , the decree itself indicates that 
+                     Aphrodisias was being declared "polis" during its occupation from Rhodians.  It is worth mentioning that the use of the vocabulary of the decree is 
+                meritorious as it contains elements of the citizenship of the area, who was the ruler and generally indications about the history of Aphrodisias in terms 
+                of geography and domination of the ancient place. </p>
+                <p> 2-3. The formula "ἀποσταλεὶς ὑπὸ Ῥοδίων ἡγεμών ἐπὶ τῶν κατὰ Καρίαν τόπων" shows the function of the Rhodian officers. According to C. Reger,
+                    it is generally believed that Rhodians had embedded an administrative structure at Karia. However , because of the lack of resources there is a field of 
+                different views.  In general, Rhodian and Seleukid  practices both influenced the administration of Karia. 
+                The phraseology is notorious; the title of someone as a Rhodian commander is proved with the expression ἡγεμὼν/ἁγεμὼν ἐπὶ Καρίας. 
+                From a general  perspective, the vocabulary and the phrases used in the inscription are imporant  and worth to be mentioned and stessed out
+                for a better  understanding of the text. </p>
+            </div>
+            <div type="bibliography" xml:lang="en">
+                <p> Van Bremen, R. and Carbon, J.-M. (2010) Hellenistic Caria, Paris: Ausonius Éditions.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
